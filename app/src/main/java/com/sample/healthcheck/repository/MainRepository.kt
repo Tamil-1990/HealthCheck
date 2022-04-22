@@ -10,7 +10,7 @@ class MainRepository(private val apiHelper: APIInterface) {
 
     suspend fun getHealthCheckDetails() = apiHelper.getHealthCheckDetails()
 
-    /*RxJava Functions*/
+    /*2nd way  RxJava*/
     private val _response = MutableLiveData<Status>()
     val response: LiveData<Status> get() = _response
     private val _healthChekList = MutableLiveData<HealthCheck>()
@@ -35,5 +35,5 @@ class MainRepository(private val apiHelper: APIInterface) {
                 _response.postValue(Status.ERROR)
             }
         }
-    }/*RxJava Functions*/
+    }/*2nd way  RxJava*/
 }

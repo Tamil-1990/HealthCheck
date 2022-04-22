@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity() {
         binding?.progressBar?.visibility = View.VISIBLE
 
         callAPI() /*Coroutine*/
-        //callRxAPI()  /*Alternate way  RxJava*/
+        //callRxAPI()  /*2nd way  RxJava*/
     }
 
     /*Call api from mainViewModel class & observe value*/
@@ -146,7 +146,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    /*Alternate way  RxJava*/
+    /*2nd way  RxJava*/
     private fun callRxAPI() {
         mainViewModel?.getHealthCheckList()
 

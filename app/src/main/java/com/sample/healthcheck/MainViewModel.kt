@@ -42,7 +42,7 @@ class MainViewModel(var mainRepository: MainRepository, application: Application
         }
     }
 
-    /*RxJava Functions*/
+    /*2nd way  RxJava*/
     fun getHealthCheckList() {
         mainRepository.getHealthCheckList(applications!!)
     }
@@ -51,5 +51,5 @@ class MainViewModel(var mainRepository: MainRepository, application: Application
     }
     val healthChekList: LiveData<HealthCheck> by lazy {
         mainRepository.healthChekList
-    }/*RxJava Functions*/
+    }/*2nd way  RxJava*/
 }
