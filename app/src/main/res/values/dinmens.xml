@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_layout_margin">8dp</dimen>
+    <dimen name="layout_padding">8dp</dimen>
+    <dimen name="header_text_size">18sp</dimen>
+    <dimen name="normal_text_size">16sp</dimen>
+</resources>

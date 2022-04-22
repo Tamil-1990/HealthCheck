@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HealthCheck</string>
+
+    <string name="app_permissions">App Permissions</string>
+    <string name="app_required_permission">Permissions are required for the App to continue.</string>
+    <string name="app_required_all_permission">You have denied some permissions, allow all permissions to continue.</string>
+    <string name="go_settings">Go, Settings</string>
+    <string name="no_exit_app">No, Exit app</string>
+    <string name="yes">Yes</string>
+    <string name="try_again">Try Again</string>
+
+    <string name="enable_data">Enable WiFi / Mobile data</string>
+    <string name="enable_data_message">Turn-on your mobile data / wifi</string>
+    <string name="wi_fi">Wi-Fi</string>
+    <string name="mobile_data">MobileData</string>
+    <string name="cancel">Cancel</string>
+</resources>
